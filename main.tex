@@ -1,13 +1,17 @@
 \documentclass{beamer}
-\title{SISTEMA DE COORDENADAS PARA POSICIONAMENTO DE INSTRUMENTOS DE MEDIÇÃO EM UM TÚNEL DE VENTO}
-\author{Alexandre Marques Baldez Junior \and Rodrigo de Souza Torma}
-\institute{Universidade Federal do Rio Grande}
-\date{2021}
+
+\input{lib/preambulo}
 
 \begin{document}
 
-%SLIDE DE CAPA
-\frame{\titlepage}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Roteiro}
+\tableofcontents[currentsection, hideothersubsections, sectionstyle=show/show]
+\end{frame}
 
 \section{Introdução}
 
@@ -41,15 +45,20 @@
 \input{slides/encoder}
 \input{slides/chavefimdecurso}
 \input{slides/fluxogramaeletronicoimg}
+
+\subsection{Sistema de software}
+
 \input{slides/arduinoide}
 \input{slides/logicadeprogramacao}
 \input{slides/diagramadeclasses}
 \input{slides/organizacaodosoftware}
+
+\subsection{Integração dos sistemas}
+
 \input{slides/integracaodossistemas}
 
 \section{Resultados e discussão}
     
 \section{Considerações finais}
-
 
 \end{document}
