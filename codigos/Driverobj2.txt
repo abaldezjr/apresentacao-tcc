@@ -1,0 +1,5 @@
+pinoIN1X    = new Pino(Pino::DIGITAL, PINO_IN1_X, OUTPUT, LOW);
+pinoIN2X    = new Pino(Pino::DIGITAL, PINO_IN2_X, OUTPUT, LOW);
+pinoIN3X    = new Pino(Pino::DIGITAL, PINO_IN3_X, OUTPUT, LOW);
+pinoIN4X    = new Pino(Pino::DIGITAL, PINO_IN4_X, OUTPUT, LOW);
+driverX     = new Driver(Driver::WAVESTEP, pinoEnableX, pinoResetX, pinoSleepX, pinoM0X, pinoM1X, pinoM2X, pinoIN1X, pinoIN2X, pinoIN3X, pinoIN4X, vetorPassos);

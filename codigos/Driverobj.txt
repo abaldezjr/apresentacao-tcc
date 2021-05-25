@@ -1,0 +1,3 @@
+pinoPassoX   = new Pino(Pino::DIGITAL, PINO_PASSO_X, OUTPUT, LOW);
+pinoDirecaoX = new Pino(Pino::DIGITAL, PINO_DIRECAO_X, OUTPUT, LOW);
+driverX = new Driver(pinoEnableX, pinoResetX, pinoSleepX, pinoM0X, pinoM1X, pinoM2X, pinoPassoX, pinoDirecaoX);
